@@ -1,0 +1,37 @@
+@media (max-width: 576px) {
+    #actualites {
+        .actualites-post {
+            margin: 0 auto;
+            width: 75%;
+
+            &:hover {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+            }
+        }
+    }
+    #single-actualite {
+        .single-actualite-image {
+            width: 100%;
+            margin-bottom: 30px;
+            iframe {
+                width: 100%;
+            }
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+#single-actualite {
+    .single-actualite-image {
+        width: 100%;
+        iframe {
+            width: 100%;
+        }
+    }
+}
+
+}

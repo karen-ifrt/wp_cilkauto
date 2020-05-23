@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url("assets/fonts/opensans-regular-webfont.woff") format("woff");
+}
+@font-face {
+    font-family: "OpenSans-light";
+    src: url("assets/fonts/opensans-light-webfont.woff") format("woff");
+}
+@font-face {
+    font-family: "OpenSans-bold";
+    src: url("assets/fonts/opensans-bold-webfont.woff") format("woff");
+}
+@font-face {
+    font-family: "OpenSans-semibold";
+    src: url("assets/fonts/opensans-semibold-webfont.woff") format("woff");
+}
+@font-face {
+    font-family: "Nunito";
+    src: url("assets/fonts/nunitosans-regular-webfont.woff") format("woff");
+}
+@font-face {
+    font-family: "Nunito-light";
+    src: url("assets/fonts/nunitosans-light-webfont.woff") format("woff");
+}
+@font-face {
+    font-family: "Nunito-bold";
+    src: url("assets/fonts/nunitosans-bold-webfont.woff") format("woff");
+}
+@font-face {
+    font-family: "Nunito-semibold";
+    src: url("assets/fonts/nunitosans-semibold-webfont.woff") format("woff");
+}
+
+
+
+// Name
+$font1: "OpenSans", sans-serif;
+$font2: "Nunito", sans-serif;
+
+
+// Déclinaisons
+$nunitoLight: "Nunito-light", sans-serif;
+$nunitoBold: "Nunito-bold", sans-serif;
+$nunitoSemiBold: "Nunito-semibold", sans-serif;
+$openLight: "OpenSans-light", sans-serif;
+$openBold: "OpenSans-bold", sans-serif;
+$openSemiBold: "OpenSans-semibold", sans-serif;

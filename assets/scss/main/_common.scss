@@ -1,0 +1,93 @@
+.border {
+    margin: 10px auto 0;
+    width: 80px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    background: transparent;
+    height: 9px;
+        &:before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 70px;
+        height: 2px;
+        background: #233588;
+        content: "";
+    }
+}
+
+.grey-background {
+    background: $color3;
+    font-family: $font2;
+    padding: 50px 0;
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-family: $nunitoSemiBold;
+    position: relative;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+    color: $degrade1;
+}
+
+.section-main-title {
+    align-items: center;
+    background: $color3;
+    text-transform: uppercase;
+    padding: 30px 0;
+    font-family: $font2;
+    font-size: 1.3rem;
+    #breadcrumbs {
+        font-size: 0.9rem;
+        font-family: $nunitoLight;
+        a {
+            color: $color1;
+            &:hover {
+                color: $color2;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+
+#myBtn {
+  display: block; 
+  position: fixed; 
+  bottom: -100px; /* Place the button at the bottom of the page */
+  right: 50px; /* Place the button 30px from the right */
+  z-index: 99; 
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #aaa; /* Set a background color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 8px 15px; /* Some padding */
+  border-radius: 100%; /* Rounded corners */
+  transition: all .5s ease-in-out;
+    img {
+        width: 20px;
+        height: auto;
+        }
+    &:hover {
+        background-color: $color2;
+    }
+}
+
+
+.display-none {
+    display: none;
+}
+
+.display-block {
+    display: block!important;
+}
+
+
+// Fil d'ariane
+#fil-ariane {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

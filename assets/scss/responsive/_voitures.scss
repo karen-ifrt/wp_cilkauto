@@ -1,0 +1,100 @@
+@media (max-width: 768px) {
+
+    #all-cars {
+        .all-cars-block {
+            margin: 0 auto 30px;
+            max-width: 100%;
+            min-width: 100%;    
+
+            .all-cars-image {
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+            .all-cars-desc {
+                .all-cars-desc-sub {
+                    .all-cars-desc-btn {
+                        a {
+                            font-size: 1rem;
+                            padding: 8px 18px 6px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #single-car {
+        #slider {
+            margin-bottom: 30px;
+            .slides {
+                height: 80%;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .slick-dots {
+                position: absolute;
+                bottom: 5%;
+            }
+        }
+        .single-car-options {
+            .single-car-box-picto {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+}
+
+}
+
+
+@media (min-width: 767px) and (max-width: 992px) {
+
+    #all-cars {
+        .all-cars-block {
+            max-width: 100%;
+            min-width: 100%;    
+
+            .all-cars-image {
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+
+            .all-cars-desc {
+                .all-cars-desc-sub {
+                    .all-cars-desc-btn {
+                        a {
+                            font-size: 0.9rem;
+                            padding: 6px 6px 4px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+@media (max-width: 1200px) {
+        #single-car {
+        #slider {
+            .slides {
+                height: 80%;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .slick-dots {
+                position: absolute;
+                bottom: 5%;
+            }
+        }
+}
+}

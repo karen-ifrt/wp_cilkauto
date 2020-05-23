@@ -1,0 +1,96 @@
+#contact-page {
+    .contact-info {
+        margin: 50px 0;
+        .contact-info-block:first-child {
+            margin-top: 0;
+        }
+        .contact-info-block {
+            font-family: $nunitoLight;
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+            .contact-info-wrap {
+                margin-right: 20px;
+                i {
+                    font-size: 35px;
+                    color: $color1;
+                }
+            }
+            .contact-info-desc {
+                line-height: 1.4;
+                a {
+                    color: inherit;
+                    &:hover {
+                        text-decoration: none;
+                        color: $color2;
+                        transition: all .3s;
+                    }
+                }
+            }
+        }
+    }
+    .formulaire {
+        font-family: $nunitoLight;
+        margin: 50px 0;
+        #formulaire-responsive {
+            .rang-form {
+                display: flex;
+                .margin-right {
+                   margin-right: 2%;
+                }
+                .demi-colonne {
+                    margin-bottom: 2%;
+                    input {
+                        letter-spacing: 1px;
+                        width: 100%;
+                        border: 2px solid $color3;
+                        padding: 10px 20px;
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+                }
+            }
+            .rang-form-textarea {
+                margin-bottom: 2%;
+                textarea {  
+                    resize: none;
+                    width: 100%;
+                    padding: 9px 20px;
+                    border: 2px solid $color3;
+                    &:focus {
+                        outline: none;
+                    }
+                }
+            }
+            .wpcf7-submit {
+                border: 1px solid $color1;
+                border-radius: 3px;
+                padding: 12px 25px 10px;
+                font-family: $font2;
+                text-transform: uppercase;
+                color: $color1;
+                background: transparent;
+                transition: all .3s;
+                &:hover {
+                    text-decoration: none;
+                    background: $color1;
+                    color: $color4;
+                    transition: all .3s;
+                }
+            }
+        }
+        .wpcf7-mail-sent-ok {
+            border: none;
+            color: #398f14;
+        }
+    }
+
+    .map-contact {
+        iframe {
+            width: 100%;
+            height: 350px;
+        }
+    }
+}
+

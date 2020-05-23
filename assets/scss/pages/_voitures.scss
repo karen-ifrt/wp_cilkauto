@@ -1,0 +1,136 @@
+#all-cars {
+    padding: 50px 0;
+    .all-cars-block {
+        box-shadow: 0 0px 10px rgba(0, 0, 0, 0.15);
+        .all-cars-image {
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+        .all-cars-desc {
+            h4 {
+                font-size: 1.1rem;
+                padding: 15px 20px 0;
+                font-family: $nunitoSemiBold;
+                min-height: 36px;
+                max-height: 36px;
+            }
+            .all-cars-desc-sub {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px;
+                margin-top: 10px;
+                p {
+                    font-family: $nunitoSemiBold;
+                    font-size: 1.3rem;
+                    color: $color1;
+                }
+                .all-cars-desc-btn {
+                    a {
+                        font-family: $nunitoLight;
+                        text-transform: uppercase;
+                        border: 1px solid $color1;
+                        border-radius: 3px;
+                        padding: 8px 18px 6px;
+                        text-transform: uppercase;
+                        color: $color1;
+                        background: transparent;
+                        transition: all .3s;
+                        &:hover {
+                            text-decoration: none;
+                            background: $color1;
+                            color: $color4;
+                            transition: all .3s;
+                        }
+                    }
+                }
+            }
+            .all-cars-options {
+                display: flex;
+                justify-content: space-around;
+                padding-top: 15px;
+                border-top: 1px solid $color3;
+                .all-cars-options-item {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    p {
+                        font-size: 1rem;
+                        color: inherit;
+                        font-family: $nunitoLight;
+                        padding: 0 20px 15px;
+                    }
+                    .all-cars-options-item-image {
+                        i {
+                            color: $degrade1;
+                            font-size: 20px;
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+#single-car {
+    padding: 50px 0;
+    #slider {
+        .slides {
+            height: 400px;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    .single-car-options {
+        height: 100%;
+        padding: 0 40px;
+        .single-car-box {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .single-car-equipements {
+                margin-bottom: 20px;
+                margin: 0 5px;
+
+                h4 {
+                    font-family: $font2;
+                    margin-bottom: 5px;
+                }
+                p {
+                    font-family: $nunitoLight;
+                    white-space: pre-wrap;
+                    line-height: 1.3;
+                    margin-bottom: 20px;
+                }
+            }
+            .single-car-item {
+                margin-bottom: 20px;
+                display: flex;
+                align-items: center;
+                svg {
+                    margin-right: 10px;
+                }
+                i {
+                    font-size: 22px;
+                    margin-right: 10px;
+                }
+                .car-price {
+                    font-size: 2rem;
+                }
+                h4 {
+                    font-family: $font2;
+                    margin: 0 5px;
+                }
+                p {
+                    font-family: $nunitoLight;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+@media (max-width: 760px) {
+
+    #services-page {
+        .all-services {
+            .service-box {
+                margin-bottom: 80px;
+                .services-page-image {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+
+    #services-page {
+        .all-services {
+            .service-box {
+                .services-page-image {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}

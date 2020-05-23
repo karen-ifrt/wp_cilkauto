@@ -1,0 +1,20 @@
+@media (max-width: 576px) {
+    footer {
+        text-align: center;
+        .main-footer {
+            .main-footer-logo {
+                margin: 0 auto;
+            }
+            .main-footer-desc {
+                margin: 20px 0;
+            }
+
+            .main-footer-info {
+                .main-footer-info-item {
+                    justify-content: center;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+}

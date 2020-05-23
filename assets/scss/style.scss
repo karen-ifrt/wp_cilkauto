@@ -1,0 +1,34 @@
+/*
+Theme Name: CILK Auto
+Theme URI: 
+Author: Karen IAFRATE
+Author URI: https://kareniafrate.fr
+Description: CILK Auto
+Requires at least: WordPress 5.0
+Version: 1.0
+*/
+
+@import 'general/reset.scss';
+@import 'general/fonts.scss';
+@import 'general/variables.scss';
+@import 'main/header.scss';
+@import 'main/footer.scss';
+@import 'main/common.scss';
+@import 'pages/home.scss';
+@import 'pages/garage.scss';
+@import 'pages/camping-car.scss';
+@import 'pages/services.scss';
+@import 'pages/contact.scss';
+@import 'pages/reparation.scss';
+@import 'pages/voitures.scss';
+@import 'pages/actualites.scss';
+@import 'pages/mentions.scss';
+@import 'responsive/header.scss';
+@import 'responsive/footer.scss';
+@import 'responsive/home.scss';
+@import 'responsive/voitures.scss';
+@import 'responsive/actualites.scss';
+@import 'responsive/garage.scss';
+@import 'responsive/services.scss';
+@import 'responsive/camping-car.scss';
+@import 'responsive/reparation.scss';

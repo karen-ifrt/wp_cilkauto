@@ -1,0 +1,16 @@
+@media (max-width: 576px) {
+    #services-reparation {
+    .all-services {
+        .service-box {
+
+            &:hover {
+                box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+                -webkit-transform: scale(1);
+                transform: scale(1);
+                transition: all .3s;
+            }
+        }
+    }
+}
+
+}

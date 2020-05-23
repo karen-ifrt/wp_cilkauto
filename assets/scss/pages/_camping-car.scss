@@ -1,0 +1,51 @@
+#camping-car {
+    .camping-car-image {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+}
+
+#services-camping-car {
+    .camping-car-desc {
+        font-size: 1.4rem;
+    }
+    .all-services {
+        .service-box {
+            display: flex;
+            align-items: center;
+            .service-title {
+                text-transform: uppercase;
+                color: $degrade1;
+                font-family: $font2;
+                line-height: 1.2;
+            }
+            .icon-wrap {
+                border: 2px solid #ebebeb;
+                background-color: transparent;
+                color: $color1;
+                border-radius: 100%;
+                width: 80px;
+                height: 80px;
+                position: relative;
+                transition: all .3s;
+                i {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    font-size: 35px;
+                }
+                &:hover {
+                    background-color: $color1;
+                    color: $color4;
+                    transition: all .3s;
+                }
+            }
+            .service-title {
+                margin-left: 20px;
+            }
+        }
+    }
+}
