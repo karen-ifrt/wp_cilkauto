@@ -23,13 +23,13 @@
     </div>
 </section>
 
-<section id="assurances" class="grey-background">
+<section id="assurances" class="grey-background ">
     <div class="container">
         <div class="assurances-title section-title text-center">
             <h2>Agréments Assurances</h2>
             <span class="border text-center"></span>
         </div>
-        <div class="all-assurances">
+        <div class="all-assurances reveal-1">
             <div class="single-assurance">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/assurances/Groupe_BPCE.png" alt="" height="65">
             </div>
@@ -55,7 +55,7 @@
     </div>
 </section>
 
-<section id="contact-home">
+<section id="contact-home" class="reveal-1">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
@@ -104,7 +104,7 @@
             <h2>Nos Services</h2>
             <span class="border text-center"></span>
         </div>
-        <div class="all-services">
+        <div class="all-services reveal-1">
             <div class="row">
                 <div class="col-md-3">
                     <div class="service-box">
@@ -198,7 +198,7 @@
             <h2>Dernières occasions</h2>
             <span class="border text-center"></span>
         </div>
-        <div class="row">
+        <div class="row reveal-1">
             <?php if ($new_loop->have_posts()) : ?>
                 <?php while ($new_loop->have_posts()) : $new_loop->the_post(); ?>
                     <div class="col-md-4">
@@ -263,7 +263,7 @@
             <h2>Notre actualité</h2>
             <span class="border text-center"></span>
         </div>
-        <div class="row">
+        <div class="row reveal-1">
             <div class="col-md-4">
                 <div class="actualites-facebook">
                     <div id="fb-root"></div>

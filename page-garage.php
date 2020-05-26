@@ -13,7 +13,7 @@
     </div>
 </div>
 
-<section id="garage">
+<section id="garage" class="reveal-1">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -33,7 +33,7 @@
         </div>
     </div>
 </section>
-<section id="services" class="grey-background">
+<section id="services" class="grey-background reveal-1">
     <div class="container">
         <div class="all-services">
             <div class="row">

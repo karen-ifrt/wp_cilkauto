@@ -20,7 +20,7 @@ $new_loop = new WP_Query(array(
 ?>
 
 
-<section id="all-cars">
+<section id="all-cars" class="reveal-1">
     <div class="container">
         <div class="row">
             <?php if ($new_loop->have_posts()) : ?>

@@ -13,7 +13,7 @@
     </div>
 </div>
 
-<section id="services-reparation">
+<section id="services-reparation" class="reveal-1">
     <div class="container">
         <div class="all-services">
             <div class="row">

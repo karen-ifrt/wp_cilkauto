@@ -17,7 +17,7 @@
 $recentPosts = new WP_Query();
 $recentPosts->query('showposts');
 ?>
-<section id="actualites">
+<section id="actualites" class="reveal-1">
     <div class="container">
         <div class="row">
             <?php while ($recentPosts->have_posts()) : $recentPosts->the_post(); ?>

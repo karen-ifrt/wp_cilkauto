@@ -13,7 +13,7 @@
     </div>
 </div>
 
-<section id="contact-page">
+<section id="contact-page" class="reveal-1">
     <div class="container">
         <div class="row">
             <div class="col-md-5">

@@ -18,7 +18,7 @@
         <img src="<?php echo get_template_directory_uri(); ?>/assets/img/common/camping-car-jons.jpg" alt="Camping-car Jons">
     </div>
 </section>
-<section id="services-camping-car" class="grey-background">
+<section id="services-camping-car" class="grey-background reveal-1">
     <div class="container">
         <div class="camping-car-desc mb-4">
             <p>Nous réalisons les prestations ci-dessous pour votre camping-car</p>

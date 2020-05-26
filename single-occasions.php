@@ -14,7 +14,7 @@
     </div>
 </div>
 
-<section id="single-car">
+<section id="single-car" class="reveal-1">
     <div class="container">
         <?php
         $images = get_field('photos');

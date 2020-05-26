@@ -12,7 +12,7 @@
     </div>
 </div>
 
-<section id="services-page">
+<section id="services-page" class="reveal-1">
     <div class="container">
         <div class="all-services">
             <div class="row">

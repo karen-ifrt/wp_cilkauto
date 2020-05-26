@@ -16,7 +16,7 @@ $recentPosts->query('showposts');
     </div>
 </div>
 
-<section id="single-actualite">
+<section id="single-actualite" class="reveal-1">
     <div class="container">
         <div class="row">
             <div class="col-md-7">
