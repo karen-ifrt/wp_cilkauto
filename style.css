@@ -889,6 +889,30 @@ footer .second-footer .second-footer-all {
     line-height: 1.8;
     list-style: disc; }
 
+#error-404 {
+  padding: 50px 0;
+  text-align: center; }
+  #error-404 .error-code {
+    color: #0A0571;
+    font-family: "OpenSans-bold", sans-serif;
+    font-size: 150px;
+    font-weight: 700;
+    margin: 0 0 7px;
+    text-shadow: 1px 4px 5px #999999; }
+  #error-404 h2 {
+    color: #0A0571;
+    font-size: 20px;
+    font-family: "OpenSans-semibold", sans-serif;
+    margin: 0 0 20px;
+    text-transform: uppercase; }
+  #error-404 a {
+    color: #25B9F1;
+    font-family: "OpenSans-semibold", sans-serif;
+    font-size: 18px; }
+    #error-404 a:hover {
+      text-decoration: none;
+      color: #0A0571; }
+
 @media (max-width: 1200px) {
   body {
     margin-top: 95px; }

@@ -1,0 +1,33 @@
+#error-404 {
+    padding: 50px 0;
+    text-align: center;
+
+    .error-code {
+        color: $color1;
+        font-family: $openBold;
+        font-size: 150px;
+        font-weight: 700;
+        margin: 0 0 7px;
+        text-shadow: 1px 4px 5px #999999;
+    }
+    
+    h2 {
+        color: $color1;
+        font-size: 20px;
+        font-family: $openSemiBold;
+        margin: 0 0 20px;
+        text-transform: uppercase;
+    }
+
+    a {
+        color: $color2;
+        font-family: $openSemiBold;
+        font-size: 18px;
+
+        &:hover {
+            text-decoration: none;
+            color: $color1;
+        }
+    }
+
+}
