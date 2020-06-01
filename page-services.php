@@ -15,7 +15,7 @@
 
 <section id="services-page">
     <div class="container">
-        <div class="all-services reveal-1">
+        <div class="all-services">
             <div class="row">
                 <div class="col-md-4">
                     <div class="service-box">

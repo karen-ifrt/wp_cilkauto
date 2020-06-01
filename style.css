@@ -940,7 +940,7 @@ footer .second-footer .second-footer-all {
             margin-top: 10px;
             margin-bottom: 0; }
             header .mobile-nav .content-menu .menu-desktop-container li .sub-menu li:before {
-              content: '- ';
+              content: '↳ ';
               color: #e6e6e6; }
       header .mobile-nav .content-menu .topnav-contact {
         position: absolute;

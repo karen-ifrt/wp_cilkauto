@@ -50,7 +50,7 @@
                         <p class="service-desc">Nous assurons l'entretien et la réparation de véhicules toutes marques</p>
 
                         <div class="elm-btn">
-                            <a target="_blank" class="simple-link" href="#">VOIR PLUS</a>
+                            <a class="simple-link" href="<?php echo esc_url(get_permalink(40)); ?>">VOIR PLUS</a>
                         </div>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                         <p class="service-desc">Nous réalisons des travaux de peinture et de carrosserie sur votre véhicule</p>
 
                         <div class="elm-btn">
-                            <a target="_blank" class=" simple-link font-heading" href="#">VOIR PLUS</a>
+                            <a class="simple-link font-heading" href="<?php echo esc_url(get_permalink(11)); ?>">VOIR PLUS</a>
                         </div>
                     </div>
                 </div>
@@ -84,7 +84,7 @@
                         <p class="service-desc">Nous assurons l'entretien et la réparation de votre camping-car (toutes marques)</p>
 
                         <div class="elm-btn">
-                            <a target="_blank" class=" simple-link font-heading" href="#">VOIR PLUS</a>
+                            <a class="simple-link font-heading" href="<?php echo esc_url(get_permalink(13)); ?>">VOIR PLUS</a>
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
                         <p class="service-desc">Nous récupérons et restituons votre véhicule à domicile <br>(service gratuit)</p>
 
                         <div class="elm-btn">
-                            <a target="_blank" class=" simple-link font-heading" href="#">VOIR PLUS</a>
+                            <a class="simple-link font-heading" href="<?php echo esc_url(get_permalink(11)); ?>">VOIR PLUS</a>
                         </div>
                     </div>
                 </div>
