@@ -4,6 +4,21 @@
         box-shadow: 0 0px 10px rgba(0, 0, 0, 0.15);
         .all-cars-image {
             width: 100%;
+            position: relative;
+            .car-sold {
+                background: rgba(10, 5, 113, 0.7);
+                position: absolute;
+                top: 45%;
+                width: 100%;
+                padding: 10px 0;
+                p {
+                    color: #fff;
+                    font-family: $font1;
+                    text-transform: uppercase;
+                    text-align: center;
+                    font-size: 1.4rem;
+                }
+            }
             img {
                 width: 100%;
             }
@@ -78,6 +93,18 @@
 
 #single-car {
     padding: 50px 0;
+
+    .car-sold {
+        background: $color1;
+        padding: 10px 0;
+        p {
+            color: #fff;
+            font-family: $font1;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 1.4rem;
+        }
+    }
     #slider {
         .slides {
             height: 400px;

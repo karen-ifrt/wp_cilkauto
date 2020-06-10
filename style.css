@@ -720,7 +720,20 @@ footer .second-footer .second-footer-all {
   #all-cars .all-cars-block {
     box-shadow: 0 0px 10px rgba(0, 0, 0, 0.15); }
     #all-cars .all-cars-block .all-cars-image {
-      width: 100%; }
+      width: 100%;
+      position: relative; }
+      #all-cars .all-cars-block .all-cars-image .car-sold {
+        background: rgba(10, 5, 113, 0.7);
+        position: absolute;
+        top: 45%;
+        width: 100%;
+        padding: 10px 0; }
+        #all-cars .all-cars-block .all-cars-image .car-sold p {
+          color: #fff;
+          font-family: "OpenSans", sans-serif;
+          text-transform: uppercase;
+          text-align: center;
+          font-size: 1.4rem; }
       #all-cars .all-cars-block .all-cars-image img {
         width: 100%; }
     #all-cars .all-cars-block .all-cars-desc h4 {
@@ -775,6 +788,15 @@ footer .second-footer .second-footer-all {
 
 #single-car {
   padding: 50px 0; }
+  #single-car .car-sold {
+    background: #0A0571;
+    padding: 10px 0; }
+    #single-car .car-sold p {
+      color: #fff;
+      font-family: "OpenSans", sans-serif;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 1.4rem; }
   #single-car #slider .slides {
     height: 400px; }
     #single-car #slider .slides img {

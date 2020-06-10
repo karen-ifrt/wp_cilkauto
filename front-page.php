@@ -204,6 +204,11 @@
                     <div class="col-md-4">
                         <div class="all-cars-block">
                             <div class="all-cars-image">
+                                <?php if (in_category('3')) : ?>
+                                    <div class="car-sold">
+                                        <p>Vendu</p>
+                                    </div>
+                                <?php endif; ?>
                                 <?php $images = get_field('photos');
                                 $image_url = $images[0]['sizes']['custom-all-cars'];
                                 ?>
